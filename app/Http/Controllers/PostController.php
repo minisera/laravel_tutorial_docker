@@ -18,7 +18,7 @@ class PostController extends Controller
         $values = Post::all();
 
         // dd($values);
-        return view('posts.index',);
+        return view('posts.index');
     }
 
     /**
