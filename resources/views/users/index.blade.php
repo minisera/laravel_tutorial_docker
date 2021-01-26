@@ -1,4 +1,4 @@
-ユーザー
+ユーザー<br>
 
 @foreach($users as $user)
 {{$user->name}}<br>
